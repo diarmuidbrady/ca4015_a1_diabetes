@@ -1,0 +1,13 @@
+name: ca4015_a1_diabetes
+channels:
+  - conda-forge
+
+dependencies:
+  - jupyterlab
+  - python=3.8
+  - scikit-learn=0.23.2
+  - pandas
+  - pip
+  - pip:
+    - pycaret
+    - yellowbrick
